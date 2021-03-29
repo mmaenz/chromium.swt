@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.swt.tests_3.106.1000.v20200818-1529.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.test.performance.win32_3.1.300.v20180822-0818.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.eclipse.test.performance_3.16.0.v20200717-1032.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.junit.jupiter.api_5.6.0.v20200203-2009.jar"/>
+	<classpathentry exported="true" kind="lib" path="org.junit_4.13.0.v20200204-1500.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
